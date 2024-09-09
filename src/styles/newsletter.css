@@ -1,0 +1,54 @@
+.main-cointainer{
+    background-color: #cae5f4;
+}
+
+.main-cointainer h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 8%;
+}
+
+.news-letter_img{
+    width: 100%;
+}
+
+.news-letter{
+  display: flex;
+  flex-direction: column;
+}
+
+.news_letter-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-bottom: 8%;
+    
+}
+
+.news_letter-input input{
+    border: none;
+    font-size: 1rem;
+    color: var(--heading-color);
+
+}
+
+.news_letter-input input:focus{
+    outline: none;
+}
+
+.btn_newsletter{
+    border: none;
+    padding: 0.5rem 1.5rem;
+    background: var(--secondary-color);
+    color: #fff;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+
+.news_letter-input p{
+    color: var(--heading-color);
+    font-size: 1.1rem;
+}

@@ -1,0 +1,19 @@
+.page_count span{
+    width: 2rem;
+    height: 2rem;
+    padding: 5px;
+    border: 1px solid var(--secondary-color);
+    color: var(--heading-color);
+    border-radius: 1rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   font-weight: 500;
+   cursor: pointer;
+
+}
+
+.active_page{
+    background: var(--secondary-color);
+    color: #fff !important;
+}

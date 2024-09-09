@@ -1,0 +1,99 @@
+.hero_subtitle img{
+    width:2.3rem;
+  
+}
+
+
+.hero_content h1{
+    font-weight: 600;
+    color: var(--heading-color);
+    font-size: 3.5rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.hero_content h1 .Highlight{
+    color: var(--secondary-color);
+
+}
+
+.hero_content p{
+    color: var(--text-color);
+    line-height: 2rem;
+    font-size: 1.1rem;
+}
+
+.hero-img_box img, .hero-img_box video{
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+    border: 1px solid var(--secondary-color);
+    object-fit: cover;
+}
+
+.hero_content{
+    padding-top: 3.5rem;
+}
+
+.hero-img_box{
+padding-top: 3.5rem;
+}
+
+.services_subtitle{
+    color: #ee6e6e;
+    font-weight: 500;
+    font-size: 2.3rem;
+    font-family: var(--subtitle-font-name);
+}
+
+.services_title{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.featured_class{
+    font-weight: 500;
+    font-size: 2.3rem;
+}
+
+.experience_content p{
+    color: var(--text-color);
+}
+
+
+.first_one span{
+   background-color: var(--primary-color);
+   height: 70px;
+   width: 70px;
+   border-radius: 8px;
+   color: #ffffff;
+   font-weight: 600;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+}
+
+.first_one p{
+    align-items: center;
+    margin-top: 20px;
+}
+
+.experience_img img{
+    width: 70%;
+}
+
+.gallery_heading{
+font-size: 2.3rem;
+margin-bottom: 2.3rem;
+margin-top: 1rem;
+}
+
+.monsary_img{
+    transition: .3s;
+
+}
+
+.monsary_img:hover{
+    transform: scale(1.1);
+}
